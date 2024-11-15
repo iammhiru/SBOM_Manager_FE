@@ -1,0 +1,64 @@
+/* src/css/DashboardProjectManagerPage.css */
+
+.dashboard {
+  display: flex;
+  height: 100vh; /* Full height of viewport */
+  width: 100vw;  /* Full width of viewport */
+  background-color: #1e1e1e; /* Dark background color */
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px 40px; /* Add padding for better UX */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  background-color: #1e1e1e;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.projects-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-project-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-filter-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  color: #ddd;
+  background-color: #222;
+}
+
+.search-btn, .filter-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+  cursor: pointer;
+}

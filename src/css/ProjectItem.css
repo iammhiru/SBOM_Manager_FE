@@ -1,0 +1,9 @@
+/* src/css/ProjectItem.css */
+
+.project-item {
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 5px;
+}

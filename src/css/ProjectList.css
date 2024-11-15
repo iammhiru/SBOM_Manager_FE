@@ -1,0 +1,7 @@
+/* src/css/ProjectList.css */
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

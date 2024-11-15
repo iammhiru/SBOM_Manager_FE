@@ -1,0 +1,22 @@
+/* src/components/SidebarProjectManager.css */
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #444;
+  }
+  
